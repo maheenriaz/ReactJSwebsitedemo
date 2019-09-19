@@ -1,0 +1,128 @@
+input[type="email"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
+#center
+{
+ margin-left: 300px;
+}
+
+#login
+{
+  font-size: 32px;
+  color: #a7a5a5;
+  font-family: 'OpenSans-Regular';
+}
+#button
+{
+  width: 140px;
+  height: 40px;
+}
+input[type="email"], textarea {
+
+  background-color : #d1d1d1; 
+
+}
+#label-all
+{
+  margin-left: 15px;
+}
+#nav-iop
+{
+    overflow: hidden;
+   
+}
+#m-left
+{
+  margin-left: 50px;
+}
+@media (max-width: 1006px) {
+  #center
+  {
+      margin-left: 294px;
+  }
+}
+
+@media (max-width: 978px) {
+  #center
+  {
+      margin-left: 216px;
+  }
+}
+@media (max-width: 730px) {
+  #center
+  {
+      margin-left: 146px;
+  }
+}
+@media (max-width: 770px) {
+  #center
+  {
+      margin-left: 146px;
+  }
+}
+@media (max-width: 578px) {
+  #center
+  {
+      margin-left: -13px;
+  }
+
+}
+
+@media (max-width: 986px) {
+  #m-left
+  {
+      margin-left: -300px;
+  }
+  
+}
+
+@media (max-width: 730px) {
+  #m-left
+  {
+      margin-left: 2px;
+  }
+  
+}
+
+@media (max-width: 622px) {
+  #m-left
+  {
+      margin-left: -132px;
+  }
+  #login
+  {
+    font-size: 20px;
+  }
+  #button
+  {
+   height: 40px;
+  }
+  
+}
+@media (max-width: 387px) {
+  #m-left
+  {
+      margin-left: -120px;
+  }
+  #login
+  {
+    font-size: 20px;
+  }
+  
+}
+footer
+  {
+    position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: rgb(71, 71, 71);
+   color: white;
+   text-align: center;
+   margin-top: -50px;
+   
+  }
+
+
