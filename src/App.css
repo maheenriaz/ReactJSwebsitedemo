@@ -33,85 +33,7 @@ input[type="email"], textarea {
     overflow: hidden;
    
 }
-#m-left
-{
-  margin-left: 50px;
-}
-@media (max-width: 1006px) {
-  #center
-  {
-      margin-left: 294px;
-  }
-}
 
-@media (max-width: 978px) {
-  #center
-  {
-      margin-left: 216px;
-  }
-}
-@media (max-width: 730px) {
-  #center
-  {
-      margin-left: 146px;
-  }
-}
-@media (max-width: 770px) {
-  #center
-  {
-      margin-left: 146px;
-  }
-}
-@media (max-width: 578px) {
-  #center
-  {
-      margin-left: -13px;
-  }
-
-}
-
-@media (max-width: 986px) {
-  #m-left
-  {
-      margin-left: -300px;
-  }
-  
-}
-
-@media (max-width: 730px) {
-  #m-left
-  {
-      margin-left: 2px;
-  }
-  
-}
-
-@media (max-width: 622px) {
-  #m-left
-  {
-      margin-left: -132px;
-  }
-  #login
-  {
-    font-size: 20px;
-  }
-  #button
-  {
-   height: 40px;
-  }
-  
-}
-@media (max-width: 387px) {
-  #m-left
-  {
-      margin-left: -120px;
-  }
-  #login
-  {
-    font-size: 20px;
-  }
-  
-}
 footer
   {
     position: fixed;
@@ -125,4 +47,99 @@ footer
    
   }
 
+nav .badge{
+  position: relative;
+  top:20px;
+  right:20px;
+}
+header
+{
+  background: url(Components/homeimg.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 500px;
+  width: 100%;
+}
+@media screen and (max-width:670px)
+{
+  header{
+   min-height: 300px;
+   width: 100%;
+  }
+  #itching
+  {
+    font-size: 10px;
+  }
+  #header-text
+  {
+    font-size: 24px;
+  }
+}
+#header-text
+{
+  text-align: center;
+  font-family: OpenSans-Regular;
+  color: #615f5f;
+}
+#itching
+{
+  text-align: center;
+  font-family: OpenSans-Regular;
+  color: #777474;
+  font-size: 20px;
 
+}
+#g1
+{
+  border-radius: 10px;
+}
+@media screen and (max-width:432px)
+{
+  #g1
+  {
+    margin-left: 40px;
+    width: 200px;
+  }
+  #g1-p
+  {
+    margin-left:110px;
+  }
+  #g1-p-h
+  {
+    text-align: center;
+  }
+}
+#img-card
+{
+  width: 100px;
+    height: 80px;
+    -webkit-border-radius: 60px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 60px;
+    -moz-background-clip: padding;
+    border-radius: 60px;
+    background-clip: padding-box;
+    margin: 7px 0 0 5px;
+    float: left;
+    background-size: cover;
+    background-position: center center;
+}
+
+#profile-badge{
+  position: relative;
+  top:10px;
+  left:-320px;
+  border-radius: 20px;
+}
+#img-card
+{
+  border-radius: 30px;
+}
+#but
+{
+  border-radius: 20px;
+}
+footer
+{
+  background-color: rgb(95, 95, 95);
+}
