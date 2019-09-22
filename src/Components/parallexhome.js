@@ -11,7 +11,7 @@ function Parallaex() {
         
         <div className="parallax-container">
            
-         <div  className="parallax" id="para12">
+         <div  className="parallax" >
                 <img src={homeimg} className="img-responsive"   />
                 
                 </div>
