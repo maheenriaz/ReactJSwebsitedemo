@@ -11,9 +11,9 @@ function Grid1() {
         <div class="row">
         <div class="col s12">
           <ul class="tabs">
-            <li class="tab col s3"><a href="#test1">What is Lorem Ipsum?</a></li>
-            <li class="tab col s3"><a class="active" href="#test2">Why do we use it?</a></li>
-           <li class="tab col s3"><a href="#test3">Where does it come from?</a></li>
+            <li class="tab col s4"><a href="#test1">What is Lorem Ipsum?</a></li>
+            <li class="tab col s4"><a class="active" href="#test2">Why do we use it?</a></li>
+           <li class="tab col s4"><a href="#test3">Where does it come from?</a></li>
           </ul>
         </div>
 </div>

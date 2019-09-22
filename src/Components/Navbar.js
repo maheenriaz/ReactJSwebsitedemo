@@ -14,7 +14,7 @@ function Navbar() {
         <a className="sidenav-trigger"  data-target="mobile-link"><i href="#" className="material-icons">menu</i></a>
       
        <ul id="nav-mobile" class="right hide-on-med-and-down">
-          <li><NavLink to="/Home" style={{ color: '#FFF' , textDecoration:'none' }}><b>HOME</b></NavLink></li>
+          <li><NavLink to="/" style={{ color: '#FFF' , textDecoration:'none' }}><b>HOME</b></NavLink></li>
            <li><NavLink to="/Signup" style={{ color: '#FFF' , textDecoration:'none' }}><b>SIGN UP</b></NavLink></li>
            <li><NavLink to="/Signin" style={{ color: '#FFF' , textDecoration:'none' }}><b>SIGN IN</b></NavLink></li>
            <li><NavLink to="#" className="btn-floating darken-4 z-depth-0" >
