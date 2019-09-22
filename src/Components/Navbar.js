@@ -31,7 +31,7 @@ function Navbar() {
       
        </nav>
        <ul className="sidenav"  id="mobile-link"  >
-          <li><NavLink to="/Home" style={{ color: 'black' , textDecoration:'none' }}><b>HOME</b></NavLink></li>
+          <li><NavLink to="/" style={{ color: 'black' , textDecoration:'none' }}><b>HOME</b></NavLink></li>
            <li><NavLink to="/Signup" style={{ color: 'black' , textDecoration:'none' }}><b>SIGN UP</b></NavLink></li>
            <li><NavLink to="/Signin" style={{ color: "black" , textDecoration:'none' }}><b>SIGN IN</b></NavLink></li>
         

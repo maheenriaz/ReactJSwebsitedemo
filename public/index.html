@@ -40,6 +40,25 @@
 $(document).ready(function(){
   $('.tabs').tabs();
 });
+
+//carosel
+$(document).ready(function(){
+  $('.carousel').carousel(
+  {
+    dist: 0,
+    padding: 0,
+    fullWidth: true,
+    indicators: true,
+    duration: 100,
+  }
+  );
+});
+
+autoplay()   
+function autoplay() {
+    $('.carousel').carousel('next');
+    setTimeout(autoplay, 4500);
+}
       </script>
        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/js/materialize.min.js"></script>
    
