@@ -7,44 +7,23 @@ import  f from './f.jpg';
 
 function Grid1() {
     return (
-        <div className="container-section" >
-            <div className="row">
-                <div className="col s12 l4  " >
-              <center>      <img src={f} className="img-rounded" width="300px" id="g1" /></center>
-                    
-                    </div>
-                    <div className="col s12 l6 pull-l1" >
-                        <h2 id="g1-p-h" className="indigo-text text-darken-4">hello</h2>
-                        <p id="g1-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                   </div>
-                </div>
-
-            <br></br>     <br></br>
-                <div className="row">
-                <div className="col s12 l4  push-l6">
-              <center>      <img src={f} className="img-rounded" width="300px"id="g1"/></center>
-                    
-                    </div>
-                    <div className="col s12 l6 pull-l4">
-                        <h2 id="g1-p-h" className="indigo-text text-darken-4">hello</h2>
-                        <p id="g1-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                   </div>
-                </div>
-                <br></br>     <br></br>
-                <div className="row">
-                <div className="col s12 l4  ">
-              <center>      <img src={f} className="img-rounded" width="300px" id="g1" /></center>
-                    
-                    </div>
-                    <div className="col s12 l6 pull-l1">
-                        <h2 id="g1-p-h" className="indigo-text text-darken-4">hello</h2>
-                        <p id="g1-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-                   </div>
-                </div>
-            </div>
-
-
-           
+        <div className="container">
+        <div class="row">
+        <div class="col s12">
+          <ul class="tabs">
+            <li class="tab col s3"><a href="#test1">What is Lorem Ipsum?</a></li>
+            <li class="tab col s3"><a class="active" href="#test2">Why do we use it?</a></li>
+           <li class="tab col s3"><a href="#test3">Where does it come from?</a></li>
+          </ul>
+        </div>
+</div>
+<div className="row">
+        <div id="test1" class="col s12">Lorem Ipsum is simply dummy text of the printing and Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</div>
+        <div id="test2" class="col s12">It is a long established fact that a reader will be Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</div>
+        <div id="test3" class="col s12">Contrary to popular belief, Lorem Ipsum is not Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going </div>
+      
+      </div>
+           </div>
     );
 }
 
