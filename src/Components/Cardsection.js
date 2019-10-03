@@ -30,7 +30,7 @@ function Card() {
             I am convenient because I require little markup to use effectively....</p>
           </div>
           <div class="card-action">
-      <center>    <a class="waves-effect waves-light btn indigo" id="but" style={{color:"white"}}><i class="material-icons left" ></i>Learn more..</a>
+      <center>    <a  href="Components/Chat.js" class="waves-effect waves-light btn indigo" id="but" style={{color:"white"}}><i class="material-icons left" ></i>Learn more..</a>
 </center>        
   </div>
   </div>

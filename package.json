@@ -1,6 +1,8 @@
 {
   "name": "reactproject",
   "version": "0.1.0",
+  "start": "./node_modules/.bin/webpack-dev-server",
+"build": "./node_modules/.bin/webpack --config webpack.config.js",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.4.2",
@@ -13,6 +15,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.1.1",
     "react-spring": "^8.0.27"
+
   },
   "scripts": {
     "start": "react-scripts start",
